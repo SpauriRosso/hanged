@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.container-parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.container {
+    border-style: solid;
+    margin: 1em
+}
+
+
+#score {
+    grid-area: 1 / 1 / 5 / 2;
+}
+#game { grid-area: 1 / 2 / 4 / 6; }
+#input-letters { grid-area: 4 / 2 / 5 / 6; }
+
+footer {
+    text-align: center;
+    size: 15px;
+}
+
